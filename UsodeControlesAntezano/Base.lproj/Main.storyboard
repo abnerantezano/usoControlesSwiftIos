@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K5h-3q-z3U">
+    <device id="ipad12_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="HuP-AT-zf7">
+            <objects>
+                <viewController id="awf-cL-HOX" customClass="SecondViewController" customModule="UsodeControlesAntezano" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8hb-Y2-Q6q">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="dM6-da-sHX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="soV-JB-q6V"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SfW-mg-VWb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="354" y="158"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="TcK-yt-4dQ">
+            <objects>
+                <viewController id="CMC-ql-Kwu" customClass="FirstViewController" customModule="UsodeControlesAntezano" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xuB-NE-kgk">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calculdora_image_screen" translatesAutoresizingMaskIntoConstraints="NO" id="wuq-fr-U4w">
+                                <rect key="frame" x="437" y="74" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="B2d-eV-PJM"/>
+                                    <constraint firstAttribute="width" constant="150" id="P6q-cA-lOU"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Abner Franco" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lG4-Pc-tIG">
+                                <rect key="frame" x="448" y="250" width="128.5" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Número 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VXJ-wS-msQ">
+                                <rect key="frame" x="475.5" y="317.5" width="73" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Número 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBv-4X-3x6">
+                                <rect key="frame" x="474.5" y="410" width="75" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resultado" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZl-u6-IVm">
+                                <rect key="frame" x="460.5" y="502.5" width="103.5" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Número 1" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ejh-Mz-A1s">
+                                <rect key="frame" x="467.5" y="346" width="89.5" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Número 2" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TcZ-Zi-D3q">
+                                <rect key="frame" x="466.5" y="438.5" width="91.5" height="34"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Rpta" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sXo-cM-k1S">
+                                <rect key="frame" x="464" y="541" width="97" height="38.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="QF9-mI-CPG">
+                                <rect key="frame" x="384" y="638" width="257" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jp-3s-nCi">
+                                        <rect key="frame" x="0.0" y="0.0" width="45" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" systemColor="groupTableViewBackgroundColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="+">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="btnSumar:" destination="CMC-ql-Kwu" eventType="touchUpInside" id="zhB-O5-WZ2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5V-L7-GGK">
+                                        <rect key="frame" x="53" y="0.0" width="45" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" systemColor="groupTableViewBackgroundColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="-">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="btnRestar:" destination="CMC-ql-Kwu" eventType="touchUpInside" id="cr0-ig-HIL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8vh-FC-Ofm">
+                                        <rect key="frame" x="106" y="0.0" width="45" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" systemColor="groupTableViewBackgroundColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="/">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="btnDividir:" destination="CMC-ql-Kwu" eventType="touchUpInside" id="boa-PH-SxL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTi-AQ-Mj0">
+                                        <rect key="frame" x="159" y="0.0" width="45" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" systemColor="groupTableViewBackgroundColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="*">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="btnMultiplicar:" destination="CMC-ql-Kwu" eventType="touchUpInside" id="jzI-Qu-WOH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M3I-Kb-BjX">
+                                        <rect key="frame" x="212" y="0.0" width="45" height="50"/>
+                                        <color key="backgroundColor" red="0.92128556969999997" green="0.01127839382" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" systemColor="groupTableViewBackgroundColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="C">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="btnLimpiar:" destination="CMC-ql-Kwu" eventType="touchUpInside" id="v3z-So-lle"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yzE-7B-pca"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RBv-4X-3x6" firstAttribute="centerX" secondItem="TcZ-Zi-D3q" secondAttribute="centerX" id="0az-4r-uCg"/>
+                            <constraint firstItem="lG4-Pc-tIG" firstAttribute="top" secondItem="wuq-fr-U4w" secondAttribute="bottom" constant="26" id="Ho8-ET-xw7"/>
+                            <constraint firstItem="gZl-u6-IVm" firstAttribute="centerX" secondItem="sXo-cM-k1S" secondAttribute="centerX" id="J7F-v0-OnJ"/>
+                            <constraint firstItem="lG4-Pc-tIG" firstAttribute="top" secondItem="wuq-fr-U4w" secondAttribute="bottom" constant="26" id="LEI-ZX-uv7"/>
+                            <constraint firstItem="QF9-mI-CPG" firstAttribute="top" secondItem="sXo-cM-k1S" secondAttribute="bottom" constant="59.666666666666629" id="Mdm-QB-ZzF"/>
+                            <constraint firstItem="TcZ-Zi-D3q" firstAttribute="top" secondItem="RBv-4X-3x6" secondAttribute="bottom" constant="8" symbolic="YES" id="Ovk-Wq-tCT"/>
+                            <constraint firstItem="wuq-fr-U4w" firstAttribute="centerX" secondItem="xuB-NE-kgk" secondAttribute="centerX" id="TmJ-9r-Wqr"/>
+                            <constraint firstItem="RBv-4X-3x6" firstAttribute="top" secondItem="ejh-Mz-A1s" secondAttribute="bottom" constant="30" id="XNi-AV-Y5T"/>
+                            <constraint firstItem="sXo-cM-k1S" firstAttribute="top" secondItem="gZl-u6-IVm" secondAttribute="bottom" constant="8" symbolic="YES" id="a8P-Sx-Lfj"/>
+                            <constraint firstItem="wuq-fr-U4w" firstAttribute="centerX" secondItem="lG4-Pc-tIG" secondAttribute="centerX" id="aSP-iT-Vi0"/>
+                            <constraint firstItem="wuq-fr-U4w" firstAttribute="top" secondItem="yzE-7B-pca" secondAttribute="top" constant="50" id="dAc-Nz-fMo"/>
+                            <constraint firstItem="ejh-Mz-A1s" firstAttribute="centerX" secondItem="RBv-4X-3x6" secondAttribute="centerX" id="eGR-F1-Oap"/>
+                            <constraint firstItem="VXJ-wS-msQ" firstAttribute="top" secondItem="lG4-Pc-tIG" secondAttribute="bottom" constant="41" id="leE-Ms-eth"/>
+                            <constraint firstItem="gZl-u6-IVm" firstAttribute="top" secondItem="TcZ-Zi-D3q" secondAttribute="bottom" constant="30" id="mMQ-ev-cka"/>
+                            <constraint firstItem="TcZ-Zi-D3q" firstAttribute="centerX" secondItem="gZl-u6-IVm" secondAttribute="centerX" id="q11-64-qgJ"/>
+                            <constraint firstItem="lG4-Pc-tIG" firstAttribute="centerX" secondItem="VXJ-wS-msQ" secondAttribute="centerX" id="sLC-lb-TfG"/>
+                            <constraint firstItem="sXo-cM-k1S" firstAttribute="centerX" secondItem="QF9-mI-CPG" secondAttribute="centerX" id="sZC-hg-wjB"/>
+                            <constraint firstItem="ejh-Mz-A1s" firstAttribute="top" secondItem="VXJ-wS-msQ" secondAttribute="bottom" constant="8" symbolic="YES" id="xl4-aY-wzB"/>
+                            <constraint firstItem="VXJ-wS-msQ" firstAttribute="centerX" secondItem="ejh-Mz-A1s" secondAttribute="centerX" id="yM2-Li-ogp"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="e2z-fa-gXi"/>
+                    <connections>
+                        <outlet property="txtNumero1" destination="ejh-Mz-A1s" id="PoZ-hR-koV"/>
+                        <outlet property="txtNumero2" destination="TcZ-Zi-D3q" id="Vej-Nv-8gu"/>
+                        <outlet property="txtRpta" destination="sXo-cM-k1S" id="Hj3-zD-AWO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XSW-IU-Wo2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="353.43511450381681" y="-449.29577464788736"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="4oj-lM-II8">
+            <objects>
+                <tabBarController id="K5h-3q-z3U" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tg5-HP-1b6">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="CMC-ql-Kwu" kind="relationship" relationship="viewControllers" id="6Rc-Rd-ySr"/>
+                        <segue destination="awf-cL-HOX" kind="relationship" relationship="viewControllers" id="8Qw-Rn-ySv"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c5F-Dk-vug" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-551" y="-146"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="calculdora_image_screen" width="512" height="512"/>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
