@@ -31,6 +31,10 @@ class FirstViewController: UIViewController {
         present(alerta, animated: true, completion: nil)
     }
     
+    @objc func ocultarTeclado() {
+        view.endEditing(true)
+    }
+    
     @IBAction func btnSumar(_ sender: Any) {
         if Double(txtNumero1.text!) != nil && Double(txtNumero2.text!) != nil {
             nro1 = Double(txtNumero1.text!)!
@@ -89,7 +93,8 @@ class FirstViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ocultarTeclado))
+        view.addGestureRecognizer(tap)
         // Do any additional setup after loading the view.
     }
     

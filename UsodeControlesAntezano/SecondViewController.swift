@@ -8,7 +8,27 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-
+    @IBOutlet weak var controlSegmento: UISegmentedControl!
+    @IBOutlet weak var txtNumero1: UITextField!
+    @IBOutlet weak var txtNumero2: UITextField!
+    @IBOutlet weak var lblRespuesta: UILabel!
+    
+    func Operacion(n1: Double, n2: Double, op: String) -> String {
+        switch op {
+        case "+":
+            return String(n1 + n2)
+        default:
+            return "Error"
+        }
+        
+    }
+    
+    @IBAction func elegirSegmento(_ sender: Any) {
+        if Double(txtNumero1.text!) != nil && Double(txtNumero2.text!) != nil {
+            
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
